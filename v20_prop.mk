@@ -1,0 +1,12 @@
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.lge.audio.handset_rx_type=DEFAULT \
+    persist.vendor.lge.audio.hifi_adv_support=1 \
+    persist.vendor.lge.audio.nsenabled=ON \
+    persist.vendor.lge.audio.voice.clarity=off \
+    vendor.lge.audio.hifi_rec.concert_gain=-140 \
+    vendor.lge.audio.hifi_rec.concert_lcf=0 \
+    vendor.lge.audio.hifi_rec.concert_lmt=0 \
+    vendor.lge.audio.hifi_rec.normal_gain=0 \
+    vendor.lge.audio.hifi_rec.normal_lcf=75 \
+    vendor.lge.audio.hifi_rec.normal_lmt=0 \
+    vendor.lge.audio.hifi_rec.offset_gain=39
