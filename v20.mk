@@ -22,6 +22,9 @@ $(call inherit-product, vendor/lge/v20-common/v20-common-vendor.mk)
 
 $(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
+# V20 Properties
+-include $(LOCAL_PATH)/v20_prop.mk
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
