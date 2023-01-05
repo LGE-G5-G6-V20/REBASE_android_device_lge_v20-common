@@ -43,6 +43,11 @@ TARGET_SCREEN_WIDTH := 1440
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
+    
+#Audio | Dac
+PRODUCT_PACKAGES += \
+    QuadDACPanel \
+    vendor.lge.hardware.audio.dac.control@1.0-service
 
 # Camera
 PRODUCT_PACKAGES += \
